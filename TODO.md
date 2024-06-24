@@ -8,11 +8,11 @@
 - [x] Make Home Wiki Page
 - [x] Make Wiki Pages for Spice for Garlic
 - [ ] Make Command Line Interface Functional
-    - [x] open wiki in browser 
+    - [x] open wiki in browser -o 
+    - [x] get spice from index -nr
     - [ ] new spice
     - [ ] user login
     - [ ] new user 
-    - [ ] get spice from index
     - [ ] get all stored spiced
     - [ ] get random stored spice
     - [ ] get stored spice by name

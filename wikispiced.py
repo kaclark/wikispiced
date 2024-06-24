@@ -64,3 +64,5 @@ def password_verified(uname, attempt):
 
 if args.open_wiki:
     os.system("brave-browser pages/index.md")
+if args.search_new:
+    os.system("shuf -n 1 spiceindex.csv") 
