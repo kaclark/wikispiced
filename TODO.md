@@ -16,4 +16,6 @@
     - [ ] get all stored spiced
     - [ ] get random stored spice
     - [ ] get stored spice by name
-- [ ] Integrate sqlite for user data for favorites
+- [ ] Integrate into 9front offered programs
+    - [ ] nroff from .ms?
+- [ ] Replace csv with sc file format
