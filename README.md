@@ -1,5 +1,6 @@
 # wikispiced
 
+testing from 9front!
 spice wiki for food research
 
 The first research source to be integrated into this wiki is Stuart Farrimond's The Science of Spice IBSN 9780241302149. This work is explicitly cited yet it is hoped that through use of the wiki the reader would have little practical reason to consult any existing paper or PDF embedding of the information.  
