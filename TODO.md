@@ -11,7 +11,7 @@
 - [ ] pivot from post-unix linux python to 9front C
     - [ ] plot limbo on Inferno as Bell Labs Ada Endgame
     - [ ] declare limbo as the philosopical completion of rust before it began
-    - [ ] rewrite all the rust popular rust programs in limbo on 9front
+    - [ ] rewrite all the popular rust programs in limbo on 9front
     - [ ] integrate Prolema and Spin to verify limbo. Make as Strong as Ada
        - [ ] port limbo to 9front
        - [ ] send data from 9front to Inferno64 emulator
@@ -27,7 +27,7 @@
     - [ ] new spice
     - [ ] user login
 	- [ ] factotum
-    - [ ] new user (what is wrong with glenda?)
+    - [ ] new user command
     - [ ] get all stored spiced
     - [ ] get random stored spice
     - [ ] get stored spice by name
