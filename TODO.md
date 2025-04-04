@@ -7,15 +7,28 @@
 - [x] Set up User Accounts with passwords
 - [x] Make Home Wiki Page
 - [x] Make Wiki Pages for Spice for Garlic
+- [x] Complement csv with sc file format
+- [ ] pivot from post-unix linux python to 9front C
+    - [ ] plot limbo on Inferno as Bell Labs Ada Endgame
+    - [ ] declare limbo as the philosopical completion of rust before it began
+    - [ ] rewrite all the rust popular rust programs in limbo on 9front
+    - [ ] integrate Prolema and Spin to verify limbo. Make as Strong as Ada
+       - [ ] port limbo to 9front
+       - [ ] send data from 9front to Inferno64 emulator
+- [ ] display index data
+    - [ ] employ awk with csv
+    - [ ] employ grep with sc
+- [ ] Integrate into 9front offered programs
+    - [ ] nroff from .ms?
+    - [ ] man pages for wiki?
 - [ ] Make Command Line Interface Functional
-    - [x] open wiki in browser -o 
-    - [x] get spice from index -nr
+    - [ ] open wiki as man page 
+    - [ ] get spice from index -nr
     - [ ] new spice
     - [ ] user login
-    - [ ] new user 
+	- [ ] factotum
+    - [ ] new user (what is wrong with glenda?)
     - [ ] get all stored spiced
     - [ ] get random stored spice
     - [ ] get stored spice by name
-- [ ] Integrate into 9front offered programs
-    - [ ] nroff from .ms?
-- [ ] Replace csv with sc file format
+
