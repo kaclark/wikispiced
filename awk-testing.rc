@@ -1,0 +1,2 @@
+#extract list of spice names
+grep 'label A' spiceindex.sc | awk -F '=' '{print $2}'
