@@ -10,9 +10,19 @@ Spices are given spice profiles in Farrimond's book, and an index of these spice
 
 ### Command Line Interface
 
-```
-python wikispiced.py -h
+```bash
+rc awk-testing -a #to see all spices
+rc awk-testing -m $spice #to get page number for spice
+rc awk-testing -r #TODO: get user input with menu?
 ```
 
-Currently this does not work beyond just giving help message
-Soon this will be rewritten to work with 9front C rather than python.
+9front grep, awk, and sed will be used to modify sc files in order to manipulate data from the index. Information gathered will be stored in manuscripts with time.
+
+### 9front tips
+
+On boot, factotum will not remember the rsa key info for ssh. The info only needs to be written to the file in order to update the security agent filesystem accordingly. 
+
+```bash
+cat /usr/glenda/rsa_key > /mnt/factotum/ctl
+rc prep-factotum-for-git-ssh.rc #wrapper for above
+```

@@ -19,14 +19,14 @@
        - [ ] port limbo to 9front
        - [ ] send data from 9front to Inferno64 emulator
 - [ ] display index data
-    - [ ] employ awk with csv
-    - [ ] employ grep sed and awk with sc
+    - [x] employ grep and awk with sc
+    - [ ] employ sed to append and modify sc
 - [ ] Integrate into 9front offered programs
     - [ ] nroff from .ms?
     - [ ] man pages for wiki?
 - [ ] Make Command Line Interface Functional
     - [ ] open wiki as man page 
-    - [ ] get spice from index -nr
+    - [x] get spice from index
     - [ ] new spice
     - [ ] user login
 	- [ ] factotum

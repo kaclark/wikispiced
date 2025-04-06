@@ -5,10 +5,9 @@ fn all_spices {
 	grep 'label A' spiceindex.sc | awk -F '=' '{print $2}'
 }
 
-
 fn map_spice_to_index {
-	#get page number for a given spice
-	spice='allspice'
+	#overall: get page number for a given spice
+	#spice='allspice' -- should be defined when option is detected
 
 	#grep for full line with spice
 	spiceline=`{grep $spice spiceindex.sc}
@@ -33,6 +32,7 @@ fn map_spice_to_index {
 
 for(i) switch($i){
 	case -m
+		spice=$2
 		map_spice_to_index
 	case -a
 		all_spices
