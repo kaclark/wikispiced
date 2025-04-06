@@ -9,6 +9,9 @@
 - [x] Make Wiki Pages for Spice for Garlic
 - [x] Complement csv with sc file format
 - [ ] pivot from post-unix linux python to 9front C
+    - [x] unzip spin on linux amd64
+    - [x] build spin on linux arm64 (termux)
+    - [ ] use prolema to model infoflow	
     - [ ] plot limbo on Inferno as Bell Labs Ada Endgame
     - [ ] declare limbo as the philosopical completion of rust before it began
     - [ ] rewrite all the popular rust programs in limbo on 9front
