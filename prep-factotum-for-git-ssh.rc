@@ -1,0 +1,1 @@
+cat /usr/glenda/rsa_key > /mnt/factotum/ctl
