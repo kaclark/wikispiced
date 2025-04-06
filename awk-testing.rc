@@ -6,13 +6,15 @@ grep '*3 = ' spiceindex.sc
 
 #get page number for a given spice
 spice='allspice'
-#get line with spice
-spiceline='{grep $spice spiceindex.sc}
+#grep for full line with spice
+spiceline=`{grep $spice spiceindex.sc}
 #get coord in the spiceline
 coord=`{echo $spiceline | awk '{print $2}'}
-#get coord num/column
+#get coord num/column substring
 colnum=`{echo $coord | awk '{print substr($1,2); }'}
-#get line with spice index page
-#todo: create var with B + $colnum
-#todo: get line with grep for new var
-#todo: use awk to get pagenum for spice query
+#get line with spice index page - we expect all indices to be in B
+newcoord=`{echo 'B'^$colnum}
+#grep for the one line with the exact coordinate
+indexline=`{grep 'label '^$newcoord^' = ' spiceindex.sc}
+#awk to get pagenum for spice query
+index=`{echo $indexline | awk '{print $4}'
