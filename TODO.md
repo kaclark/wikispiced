@@ -20,7 +20,7 @@
        - [ ] send data from 9front to Inferno64 emulator
 - [ ] display index data
     - [ ] employ awk with csv
-    - [ ] employ grep with sc
+    - [ ] employ grep sed and awk with sc
 - [ ] Integrate into 9front offered programs
     - [ ] nroff from .ms?
     - [ ] man pages for wiki?
