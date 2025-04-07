@@ -1,2 +1,5 @@
+index:D: index.ms
+	nroff -ms index.ms
+
 garlic:D: garlic.ms
 	nroff -ms garlic.ms
