@@ -1,0 +1,2 @@
+garlic:D: garlic.ms
+	cat garlic.ms | troff -ms | lp -dstdout | page
