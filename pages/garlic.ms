@@ -1,6 +1,6 @@
 .TL
 Garlic
-.NH
+.SH
 Notes
 .PP
 Pungent
@@ -8,21 +8,21 @@ Pungent
 Sulphourous
 .PP
 Sweet
-.NH
+.SH
 Botanical Name
 .PP
 Allium sativium
-.NH
+.SH
 Other Names
 .PP
 Camphor of the poor
 .PP
 stinking rose
-.NH
+.SH
 Major Flavour Compound
 .PP
 Allicin
-.NH
+.SH
 Parts used
 .PP
 Bulb
