@@ -3,3 +3,6 @@ index:D: index.ms
 
 garlic:D: garlic.ms
 	nroff -ms garlic.ms
+
+eqntest:D: eqn-test.ms
+	eqn eqn-test.ms | troff -ms | page
