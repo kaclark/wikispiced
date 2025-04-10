@@ -1,0 +1,6 @@
+
+log.edit: log.ms
+	sam log.ms
+
+log.preview: log.ms
+	nroff -ms log.ms
