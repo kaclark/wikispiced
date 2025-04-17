@@ -1,0 +1,10 @@
+.TL
+Tamarind
+.SH
+Notes
+.PP
+Sour
+.PP
+Fruity
+.PP
+Sweet
